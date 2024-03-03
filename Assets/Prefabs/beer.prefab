@@ -103,6 +103,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: beer
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1306be73f4bb6b745966c8825645e205,
+        type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1306be73f4bb6b745966c8825645e205,
+        type: 3}
+      propertyPath: m_TagString
+      value: Beer
+      objectReference: {fileID: 0}
     - target: {fileID: 1129496810705857465, guid: 1306be73f4bb6b745966c8825645e205,
         type: 3}
       propertyPath: m_Materials.Array.data[0]

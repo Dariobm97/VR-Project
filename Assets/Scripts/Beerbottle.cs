@@ -13,5 +13,6 @@ public class Beerbottle : MonoBehaviour
         {
             part.isKinematic = false;
         }
+        Destroy(gameObject, 1f);
     }
 }
