@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Bullet : MonoBehaviour
 {
@@ -10,8 +11,9 @@ public class Bullet : MonoBehaviour
 
         if (objectHitten.gameObject.CompareTag("Beer"))
         {
-            Debug.Log("Beer bottle hit");
+            GameManager beerCounter = FindObjectOfType<GameManager>();
             objectHitten.gameObject.GetComponent<Beerbottle>().Shatter();
+            beerCounter.DecrementBottleCount();
         }
 
     }
